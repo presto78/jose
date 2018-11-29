@@ -3,7 +3,7 @@ package jws
 import (
 	"sync"
 
-	"github.com/SermoDigital/jose/crypto"
+	"github.com/presto78/jose/crypto"
 )
 
 var (

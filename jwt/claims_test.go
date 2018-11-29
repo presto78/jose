@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/SermoDigital/jose/crypto"
-	"github.com/SermoDigital/jose/jws"
-	"github.com/SermoDigital/jose/jwt"
+	"github.com/presto78/jose/crypto"
+	"github.com/presto78/jose/jws"
+	"github.com/presto78/jose/jwt"
 )
 
 func TestMultipleAudienceBug_AfterMarshal(t *testing.T) {
